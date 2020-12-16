@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 $(call inherit-product, vendor/stag/main.mk)
 
 # Mido bootanimation flag
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SCREEN_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
