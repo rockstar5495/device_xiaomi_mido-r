@@ -20,4 +20,4 @@
 
 ## Device Picture
 
-![Redmi Note 4](http://i01.appmifile.com/webfile/globalimg/7/537557F3-A4F1-2490-E9D3-138B2A11DBF6.png "Redmi Note 4")
+![Redmi Note 4](https://i01.appmifile.com/webfile/globalimg/mobile/in/20170116/overview-2nd-phone.png?thumb=1&w=1082&h=817&width=1082&height=817 "Redmi Note 4")
