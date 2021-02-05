@@ -5,9 +5,9 @@
     "remote": "shashank1436",
     "branch": "r11"
  },
-    "repository": "vendor_xiaomi",
+    "repository": "vendor_xiaomi_mido",
     "target_path": "vendor/xiaomi",
-    "remote": "shashank1436",
+    "remote": "rockstar5495",
     "branch": "r11"
   }
 ]

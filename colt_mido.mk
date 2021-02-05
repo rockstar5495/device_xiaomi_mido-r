@@ -21,21 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common StagOS stuff.
-$(call inherit-product, vendor/stag/main.mk)
-
-# StagOS build with gapps
-# WITH_GAPPS := true
+# Inherit some common ColtOS stuff.
+$(call inherit-product, vendor/colt/config/common_full_phone.mk)
 
 # StagOS official device
-BUILD_TYPE := OFFICIAL
+BUILD_TYPE := UNOFFICIAL
 
 # Mido bootanimation flag
-TARGET_SCREEN_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1080x1920
+
+# Maintainer
+COLT_DEVICE_MAINTAINER := Pratyaksh_Bharadwaj
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := stag_mido
+PRODUCT_NAME := colt_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
