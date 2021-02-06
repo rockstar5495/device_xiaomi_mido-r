@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Release name
+TARGET_RELEASE_NAME := mido
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -21,21 +24,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common ColtOS stuff.
-$(call inherit-product, vendor/colt/config/common_full_phone.mk)
+# Inherit some common PixysOS stuff.
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
-# StagOS official device
+# Official
 BUILD_TYPE := UNOFFICIAL
 
 # Mido bootanimation flag
-TARGET_BOOT_ANIMATION_RES := 1080x1920
+TARGET_BOOT_ANIMATION_RES := 1080
 
-# Maintainer
-COLT_DEVICE_MAINTAINER := Pratyaksh_Bharadwaj
-
+# GApps
+TARGET_GAPPS_ARCH := arm64
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := colt_mido
+PRODUCT_NAME := pixys_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
